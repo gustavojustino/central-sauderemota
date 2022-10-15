@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+body {
+    max-width: 100%;
+    height: 750px;
+    
+    background-image: linear-gradient(to bottom, #6610f2 20%, #21064d);
+    background-image: linear-gradient(to left, #6610f2 10%, #21064d);
+}
+header {
+    position: relative;
+}
+#header-title {
+    position: relative;
+    bottom: 60px;
+
+    font-size: 2em;
+    font-weight: 700;
+    text-decoration: none;
+}
+header span {
+    color: #7cff00;
+}
+#header-logotipe {
+    text-decoration: none;
+}
+nav ul {
+    position: relative;
+    bottom: 90px;
+    margin-left: 70%;
+}
+.navlink{
+    position: relative;
+    display: inline-block;
+    margin-left: 15px;
+
+    list-style: none;
+}
+.navlink:nth-child(2n) {
+    border: 1px solid #7bff009f;
+    border-radius: 25px;
+    padding: 10px;
+}
+.navlink a {
+    text-decoration: none;
+    font-size: 1.3em;
+    transition: 0.8s;
+}
+.navlink a:hover {
+    color:#7cff00;
+    margin-left: 7px;
+    font-weight: 700;
+}
+.main {
+    position: relative;
+    height: 250px;
+
+}
+.background-wrapper {
+    position: absolute;
+    margin-left: 60%;
+
+    opacity: 75%;
+}
+.medical-personal {
+    position: absolute;
+    bottom: 100px;
+}
+#paragraph-title {
+    position: relative;
+    margin-left: 20px;
+    font-size: 2.7em;
+}
+#paragraph-description {
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+
+    font-size: 15pt;
+}
+#button-medicalcare {
+    position: relative;
+    top: 80px;
+    margin-left: 20px;
+    padding: 15px;
+
+    font-size: 1.5em;
+    font-weight: 700;
+    background: #7cff00;
+    border-radius: 10px 15px;
+}
+#button-medicalcare a{
+    color: #251212;
+    text-decoration: none;
+}
+#button-medicalcare:hover {
+    transition: 0.3s;
+    border: 1px solid #ffff00;
+
+}
+footer {
+    position: relative;
+    top: 30%;
+
+    background: #000000;
+    height: 150px;
+}
+footer #paragraph-footer {
+    position: relative;
+    top: 50px;
+    max-width: 100%;
+
+    text-align: center;
+    align-items: center;
+
+}

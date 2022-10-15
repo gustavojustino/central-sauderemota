@@ -1,0 +1,21 @@
+@import url("./style.css");
+
+body {
+    height: 300px;
+}
+
+section {
+    position: relative;
+    max-width: 500px;
+    height: 180px;
+    top: 20px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    border: 1px solid;
+    border-radius: 8px 10px;
+}
+h1 {
+    color: #512512;
+    text-align: center;
+    font-size: 3em;
+}
