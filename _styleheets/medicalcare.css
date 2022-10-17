@@ -4,7 +4,7 @@
     position: relative;
     margin: 0 auto;
     padding: 20px;
-    height: 350px;
+    
     width: 850px;
 
     border-radius: 25px;
@@ -15,12 +15,15 @@
     color: #2c2c2c;
     text-align: center;
 }
-input {
-    width: 200px;
+input, select, option {
+    width: 220px;
     height: 25px;
     padding: 0 0 0 20px;
     margin: 5px;
     border-radius: 20px;
+
+    text-align: center;
+    color: #000000;
 }
 #submitInputs {
     width: 150px;
@@ -28,4 +31,8 @@ input {
     cursor: pointer;
     border-radius: 10px;
     background-color: #7cff00;
+}
+#symptoms {
+    width: 350px;
+    height: 50px;
 }
