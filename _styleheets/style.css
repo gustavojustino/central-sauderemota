@@ -44,6 +44,7 @@ nav ul {
     list-style: none;
 }
 .navlink:nth-child(2n) {
+    background: #808080;
     border: 1px solid #7bff009f;
     border-radius: 25px;
     padding: 10px;
